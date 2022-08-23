@@ -1,8 +1,8 @@
-const {defineConfig} = require("vite");
+import {defineConfig} from "vite";
 import {resolve} from "path";
 
-module.exports = defineConfig({
-	base: "/apis-you-didnt-know-about/",
+export default defineConfig({
+	base: "/pwa-features/",
 	build: {
 		rollupOptions: {
 			input: {
@@ -12,7 +12,7 @@ module.exports = defineConfig({
 		},
 	},
 	server: {
-		host: true,
 		https: true,
+		host: true,
 	},
 });

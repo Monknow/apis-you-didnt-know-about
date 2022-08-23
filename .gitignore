@@ -22,6 +22,7 @@ dist-ssr
 *.sln
 *.sw?
 
-apis-you-dont-know-about/*
+javascript-apis-you-dont-know-about.md
 unknown-web-apis/*
 unknown-web-apis-2/*
+
