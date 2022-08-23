@@ -2,7 +2,7 @@ import {defineConfig} from "vite";
 import {resolve} from "path";
 
 export default defineConfig({
-	base: "/pwa-features/",
+	base: "/apis-you-didnt-know-about/",
 	build: {
 		rollupOptions: {
 			input: {
